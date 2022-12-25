@@ -34,33 +34,57 @@ This program is written in **Java** and uses...
 
 The current JDK is Azul Zulu OpenJDK version 15.0.9
 
-## Contribution
+## Contributers:
+* Mehdi Benouhoud
+* Réda Alidrissi-Omari
+* David Qi
+* Changfan Deng
 
-Original contributers:
+## Task repartitions
 
--Mehdi Benouhoud
+### Réda:
+* Design of the assets 
+* CSS implementation
+* Changing between planets 
+* About window
 
--Réda Alidrissi-Omari
+### Mehdi:
+* Regular calculation of position, velocity, and acceleration for each frame
+* Input of the skater’s mass
+* Play, pause, and reset the animation
+* Animation of the skater riding down the plane
+* Change the plane angle
+* Energy graph 
+### Changfan:
+* Import of other planets’ gravity constants
+* Slow motion
+* Change between different planets and their gravity constants
+### David:
+* Input of the dynamic friction coefficient
+* Animation of the skater riding down the plane
+* Change the plane angle
+* Animation of the parabola
 
--David Qi
+# Challenges
 
--Chanfang Deng
+## Working under a time constraint
 
-You can open fork this repo, commit changes and open a pull request. I check my GitHub account fairly often, hence I will most likely merge your PR in a short time span.
+It was challenging for our team to deliver a complete and complex project in a restraint time span. We did projects and assignments earlier in our CEGEP curriculum, but this was the first time that we had to develop a project of similar scale. Indeed, this increased the impacts of even the smallest errors or delays. 
+
+## Adapting to unknown Java technologies and components
+
+Although we had virtually comprehensive comprehension of the technologies available with the JavaFX framework due to the three previous courses of programing at Vanier, being a programmer is an everlasting learning journey. Indeed, there were several elements that we didn’t study in class. It was challenging for us to grasp certain elements
+
+## Learning CSS 
+
+For the CSS, one of the challenges faced was to figure out how to customize the project in the first place, since the base CSS styling does not allow to have pixelated visuals. Therefore, the easiest and freest way we decided to choose was to make background images for each component of the project to make it look like the background image is the actual component. For example, we created background images for the buttons, wrote CSS code to make the buttons transparent and put the background image that is of the same size instead. Learning CSS was a bit hard because we did not cover it a lot of last semester, and because there is not a lot of info on its implementation with Java FX in specific situations.
 
 ## Issues
 
-THSS is still a work in progress. I will in the near future list bugs and missing features in the form of issues.
+It is buggy and some temmates didn't do their tasks properly
 
-### GitHub Actions
 
-I plan on putting a workflow in place, notably with the following actions:
-* Maven build action
 
-    An action to ensure each push in a certain branch (probably a test branch) actually compiles correctly
-* Maven Jar file action
 
-    An action that, for each pull to the `master` branch, builds a jar file containing every library needed to execute the program, preferably a cross-plateform executable
-    * An action to make sure every pull request is a valid compilable version of the code as per the Maven build action
 
 
