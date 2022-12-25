@@ -24,17 +24,19 @@ The user can change the planet the skater is in like earth, the Moon, and Mars.
 ![Image: GUI of TonyHawkSkateSimulator](https://i.imgur.com/CE0t0ww.png)
 *Figure 2: The user switched the planet and now is on Mars*
 
-
 ![Image: GUI of TonyHawkSkateSimulator](https://i.imgur.com/BMAgSTW.png)
 *Figure 3: The user switched the planet and now is on the Moon*
 
+![Image: GUI of TonyHawkSkateSimulator](https://i.imgur.com/o2MJ1kX.png)
+
+
+*Figure 4: The "about" pane, that gives information about our project*
 
 ## Technologies and frameworks used
 
-This program is written in **Java** and uses...
-
-### Frameworks used
-
+* IntelliJ
+* The Java porograming language
+* CSS
 * The JavaFX GUI framework
     * The GUI designed using FXML
 * The Maven build automation tool
@@ -52,10 +54,12 @@ The current JDK is Azul Zulu OpenJDK version 15.0.9
 ## Task repartitions
 
 ### Réda:
-* Design of the assets 
-* CSS implementation
-* Changing between planets 
-* About window
+*	Designing the assets 
+*	Making CSS stylesheets for each planet
+*	Properly implement the CSS stylesheets
+*	Changing between planets 
+*	Implementing the about window
+
 
 ### Mehdi:
 * Regular calculation of position, velocity, and acceleration for each frame
@@ -88,10 +92,16 @@ Although we had virtually comprehensive comprehension of the technologies availa
 
 For the CSS, one of the challenges faced was to figure out how to customize the project in the first place, since the base CSS styling does not allow to have pixelated visuals. Therefore, the easiest and freest way we decided to choose was to make background images for each component of the project to make it look like the background image is the actual component. For example, we created background images for the buttons, wrote CSS code to make the buttons transparent and put the background image that is of the same size instead. Learning CSS was a bit hard because we did not cover it a lot of last semester, and because there is not a lot of info on its implementation with Java FX in specific situations.
 
+## Strengths
+
+* One of the strengths of our project was that its logic is accurate. For example, the graph accurately shows the kinetic and potential energy the skater has dynamically using physics formulas.
+* Another strength is that it is visually appealing. Each planet has its own identity, and the user feels the change visually and with the skater’s movement. 
+
 ## Issues
 
-It is buggy and some temmates didn't do their tasks properly
-
+* One of the problems of our project is that the parabolic plane does not work. It was a way to display how gravity affects the skater and makes him go back and forth in the plane, but unfortunately the team member responsible for its implementation implemented it last minute and did not properly make it. 
+* Another weakness of our project is that when you reset the values, the animation does not stop to let you change the values as you wish. Unfortunately, it is a detail that was forgotten to be fixed, which makes it hard for the user to change the values when he resets the animation. 
+* Furthermore, the friction coefficient was supposed to be able to be changed dynamically, but the teammate responsible of it did not implement it.
 
 
 
