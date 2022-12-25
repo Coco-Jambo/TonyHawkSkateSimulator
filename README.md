@@ -34,7 +34,7 @@ This program is written in **Java** and uses...
 
 The current JDK is Azul Zulu OpenJDK version 15.0.9
 
-# Contribution
+## Contribution
 
 Original contributers:
 
