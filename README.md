@@ -2,7 +2,7 @@
 
 ## Context
 
-This program was developed as an integrative project for the final course (420-204-RE) of the Computer Science & Mathematics collegial program.
+This program was developed as an integrative project for the final course (420-204-RE) of the Computer Science & Mathematics collegial program. I do not wish for anyone to copy it, as it was a collaborative effort between all 4 collaborators who worked hard on it.
 
 ## Program description
 
