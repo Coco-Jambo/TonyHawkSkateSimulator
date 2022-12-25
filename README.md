@@ -37,7 +37,7 @@ The current JDK is Azul Zulu OpenJDK version 15.0.9
 # Contribution
 
 Original contributers:
-#-Mehdi Benouhoud
+# -Mehdi Benouhoud
 -Réda Alidrissi-Omari
 -David Qi
 -Chanfang Deng
