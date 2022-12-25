@@ -20,6 +20,15 @@ coefficient, and can change the planet, to change the gravitational acceleration
 box. Furthermore, the user can play, pause and reset the animation, as well as to slow it down.
 The user can change the planet the skater is in like earth, the Moon, and Mars.
 
+
+![Image: GUI of TonyHawkSkateSimulator](https://i.imgur.com/CE0t0ww.png)
+*Figure 2: The user switched the planet and now is on Mars*
+
+
+![Image: GUI of TonyHawkSkateSimulator](https://i.imgur.com/BMAgSTW.png)
+*Figure 3: The user switched the planet and now is on the Moon*
+
+
 ## Technologies and frameworks used
 
 This program is written in **Java** and uses...
