@@ -36,6 +36,12 @@ The current JDK is Azul Zulu OpenJDK version 15.0.9
 
 # Contribution
 
+Original contributers:
+-Mehdi Benouhoud
+-Réda Alidrissi-Omari
+-David Qi
+-Chanfang Deng
+
 You can open fork this repo, commit changes and open a pull request. I check my GitHub account fairly often, hence I will most likely merge your PR in a short time span.
 
 ## Issues
